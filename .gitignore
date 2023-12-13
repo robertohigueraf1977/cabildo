@@ -1,0 +1,52 @@
+# Dependencias comunes
+/node_modules
+/package-lock.json
+/yarn.lock
+/npm-debug.log
+/yarn-error.log
+
+# Directorios de compilación y salida para ambos proyectos
+/backend/dist
+/backend/node_modules
+/frontend/build
+/frontend/node_modules
+/frontend/.next
+
+# Archivos de ambiente para ambos proyectos
+/backend/.env
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/.env
+/.env.local
+/.env.test
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Archivos y carpetas del IDE (comunes para ambos proyectos)
+/.idea
+/.vscode
+/*.sublime-workspace
+/*.sublime-project
+
+# Otros archivos y carpetas comunes
+/coverage
+/.nyc_output
+/*.log
+*.tmp
+*.temp
+
+# Archivos específicos de React
+/frontend/.eslintcache
+
+# Archivos y carpetas de herramientas de desarrollo comunes
+/.tscache
+/.cache
+/.parcel-cache

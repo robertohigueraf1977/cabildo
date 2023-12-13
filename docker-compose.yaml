@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  db:
+    container_name: cabildo-db
+    image: postgres:15.4
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    ports:
+      - 5432:5432
+    volumes:
+      - ./cabildo-data:/var/lib/postgresql/data
